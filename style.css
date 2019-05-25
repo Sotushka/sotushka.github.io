@@ -13,6 +13,7 @@ body{
     font-size: 56px;
     margin: -8px;
     background-size: cover;
+    
 }
 .head{
     color:#ffffff;
@@ -29,7 +30,7 @@ body{
                  #a8a6a6 3px 3px 0, #cad5e2 4px 4px 0, 
                  #a8a6a6 5px 5px 0;
     text-decoration: none;
-    background-size: cover;
+    background-size:cover;
 }
 .tuta{
     margin-top: 250px;
