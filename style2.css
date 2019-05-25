@@ -1,0 +1,55 @@
+  @font-face {
+    font-family: gang;
+    src: url(gang.ttf); 
+   }
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap&subset=cyrillic');
+
+body{
+    font-family: gang;
+    background-image:url(BACKGRAUND.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bio{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+        font-family: gang;
+    color:white;
+    text-shadow: gray 1px 1px 0, gray 2px 2px 0, 
+                 #a8a6a6 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #a8a6a6 5px 5px 0;
+}
+h1{
+    font-size: 200px;
+    font-family: 'gang';
+}
+.txt{
+    margin-left: 8%;
+    width: 50%;
+    font-family:  'Ubuntu Condensed', sans-serif;
+    font-size: 45px;
+}
+a{
+    text-decoration:none;
+    color:#ffffff;
+}
+.txt2{
+    margin-top: 70px;
+        
+    margin-left: 17%;
+    width: 50%;
+    font-family:  'Ubuntu Condensed', sans-serif;
+    font-size: 45px;
+}
+.next{
+    margin-left: 20%;
+    transition: 0.7s;
+}
+.next:hover{
+    transform: scale(0.9);
+}
+
+

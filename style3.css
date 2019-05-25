@@ -1,0 +1,144 @@
+  @font-face {
+    font-family: gang;
+    src: url(gang.ttf); 
+   }
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap&subset=cyrillic');
+body{
+    background-image: url(mazzi.png);
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 40px;
+    background-attachment: fixed;
+    transition: 0.7s;
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration:none;
+    color:#ffffff;
+}
+.text{
+width: 60%;
+margin: auto;
+}
+.tix{
+width: 100%;
+    text-align: center;
+margin: auto;
+        font-family: gang;
+    color:white;
+    text-shadow: gray 1px 1px 0, gray 2px 2px 0, 
+                 #a8a6a6 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #a8a6a6 5px 5px 0;
+font-size: 130px;
+}
+.all{
+}
+.vidios{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.vidios2{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.next{
+    margin-left: 20%;
+    transition: 0.7s;
+}
+.next:hover{
+    transform: scale(0.9);
+}
+.da{
+    transition: 0.7s;
+    width: 560px;
+    height: 315px;
+    margin: 30px;
+}
+.da:hover{
+    transform: scale(0.95);
+}
+.da2{
+     transition: 0.7s;
+     width: 560px;
+    height: 315px;
+    margin: 30px;
+}
+.da2:hover{
+    transform: scale(0.95);
+}
+.da3{
+     transition: 0.7s;
+     width: 560px;
+    height: 315px;
+    margin: 30px;
+}
+.da3:hover{
+    transform: scale(0.95);
+}
+.da4{
+     transition: 0.7s;
+     width: 560px;
+    height: 315px;
+    margin: 30px;
+}
+.da4:hover{
+    transform: scale(0.95);
+} 
+.da5{
+     transition: 0.7s;
+     width: 560px;
+    height: 315px;
+    margin: 30px;
+}
+.da5:hover{
+   transform: scale(0.95);
+} 
+.da6{
+     transition: 0.7s;
+     width: 560px;
+    height: 315px;
+    margin: 30px;
+}
+.da6:hover{
+    transform: scale(0.95);
+} 
+@media (max-width: 1850px){
+    .vidios{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+        .vidios2{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all{
+display: flex;
+justify-content: space-around;
+}
+}
+@media (max-width: 1350px){
+  .all{
+display: flex;
+justify-content: center;
+flex-direction: column;
+      }
+          .vidios{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+              margin: auto;
+}
+        .vidios2{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+            margin: auto;
+}
+}  
